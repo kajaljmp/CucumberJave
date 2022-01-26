@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="C:\\kajal\\CucumberJave\\src\\test\\resources\\Features", glue= {"StepDefinition.RunnerClass"})//src\\test\\java\\StepDefinition
+@CucumberOptions(features="src\\test\\resources\\Features", glue= {"StepDefinition"},monochrome = true)
 public class RunnerClass {
 	
 }
